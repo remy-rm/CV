@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img\cv.png" type="image/x-icon" style="border-radius: 50%;">
+    <title>CV en HTML5 et CSS</title>
+    <link rel="stylesheet" href="../style(grid).css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="menu"> <a href="../index.html"><img src="../img/a propos.png" alt="ICO" class="ico"> <span>A propos de moi</span></a></li>
+                <li class="competence"><a href="competences.html"><img src="../img/competences.png" alt="ICO" class="ico" > <span>mes compétences</span></a></li>
+                <li class="@" ><a href="contact.html"><img src="../img/icone-cv-mail-2-blanc.png" alt="ICO"class="ico"> <span>contact</span></a></li>
+                <li class="portfolio"><a href="portfolio.html"><img src="../img/portfolio.png" alt="ICO" class="ico"><span>portfolio</span> </a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="flex">
+        <main>
+            <div class="pictures"><img src="../img/up name.jpg" alt="img_dev"></div>
+             <div class="surname">
+                <h1 class="name">MARQUIS Rémy</h1>
+                <h2 class="profession">formation développeur</h2>
+             </div>
+             <div class="footerinfo ">
+                    <a class="download_cv" href="../download/CV.pdf" download="cv.pdf">Télécharger mon CV</a>
+                    <a class="contact" href="contact.html">contact</a>
+             </div>
+        </main>
+        <aside>
+                <div class="presentation competences">
+                    <h3>Mes compétences</h3>
+                    <p>voici Mais competence d'en l'univers du dévelopement</p>
+                    <ul>
+                        <li>utillisation de Vscode</li>
+                        <li>connaisance de base en language python</li>
+                        <li>maitrise du CSS et du HTML</li>
+                        <li>utillisation de git et github (en témoinge la rubrique <a href="portfolio.html">portfolio )</a> </li>
+                        <li>maitrise de l'un des outils les plus importants pour le dévelopement :Le moteur de recherche</li>
+                        <li>utillisation de chat GPT d'openAI</li>
+                    </ul>
+                
+                    <div class="another_c">
+                        <input type="checkbox" id="cx2">
+                        <label for="cx2">Mes autres competences</label>
+                    
+                    <div class="choise">
+                        <input type="radio" name="cho" class="cho agr" id="agri" checked>
+                        <label for="agri">Agricole</label>
+                        <input type="radio" name="cho" class="cho man" id="manut" >
+                        <label for="manut">manutantion</label>
+                        <input type="radio" name="cho" class="cho no" id="none" checked>
+                        <label for="none"></label>
+    
+                    <div class="agricole">
+                        <p>Mes compétences</p>
+                        <ul>
+                            <li>conduite d'angins agricoles</li>
+                            <li>superivser un elevage bovin</li>
+                            <li>utillisation materiel agricol</li>
+                        </ul>
+                    </div>
+                    <div class="manutantion">
+                        <ul>
+                            <li>conduite d'engins cases 1 3 5</li>
+                            <li>recevoir et expedier la marchandise</li>
+                            <li>utillisation de reflex et AS400 </li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+                </div>
+        </aside>
+    </div>
+ 
+</body>
+</html>
